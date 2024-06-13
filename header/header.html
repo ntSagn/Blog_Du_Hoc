@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./reset.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./font/stylesheet.css" />
+        <link rel="stylesheet" href="./styleheader.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header id="head">
+            <div class="header">
+                <div class="content">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="logo" />
+                    </div>
+                    <div class="text_header">
+                        <div class="text-item">
+                            <img
+                                src="./img/call_header.png"
+                                alt="icon-call"
+                            />
+                            <div class="item">
+                                <span class="title">Hotline</span>
+                                <span class="info">0948.468.558</span>
+                            </div>
+                        </div>
+                        <div class="text-item">
+                            <img
+                                src="./img/mail_header.png"
+                                alt="icon-mail"
+                                width="36px"
+                                height="25px"
+                            />
+                            <div class="item">
+                                <span class="title">Email</span>
+                                <span class="info">lienhe@crv.vn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <form action="#!">
+                            <input
+                                type="text"
+                                placeholder="Enter key search"
+                                class="input-text"
+                            />
+                            <button type="submit">
+                                <img src="./img/search.png" alt="search" />
+                            </button>
+                        </form>
+                    </div>
+                    <div class="login">
+                        <img width="50px" src="./img/login.png" alt="Login">
+                    </div>
+                    <!-- THEM ZO NE -->
+
+                    <label class="nav-btn" for="input-check">
+                        <i
+                            class="fa-solid fa-bars fa-2xl"
+                            style="cursor: pointer"
+                        ></i>
+                    </label>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <div class="content">
+                    <ul>
+                        <li>
+                            <a href="../HomeForGuest/index.html"
+                                ><i class="fa-solid fa-house"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="../page_gioithieu/pagegioithieu.html">GIỚI THIỆU</a>
+                        </li>
+                        <li>
+                            <a href="../SanPham/NationalUni.html">DỊCH VỤ</a>
+                        </li>
+                        <li>
+                            <a href="./quocgiaduhoc.html">QUỐC GIA DU HỌC </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="./du_hoc_han_quoc.html"
+                                        >Du học Hàn Quốc</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./du_hoc_nhat_ban.html"
+                                        >Du học Nhật Bản</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./du_hoc_dai_loan.html"
+                                        >Du học Đài Loan</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../Tung/HoiThaoDuHoc.html">HỘI THẢO DU HỌC</a>
+                        </li>
+                        <li>
+                            <a href="../Tung/ThuVien.html">THƯ VIỆN</a>
+                        </li>
+                        <li>
+                            <a href="../page_event/pagesk.html">TIN TỨC, SỰ KIỆN</a>
+                        </li>
+                        <li>
+                            <a href="../LienHe/index.html">LIÊN HỆ</a>
+                        </li>
+                        <!-- <li class ="admin-setting">
+                            <a href="#">
+                                ADMIN
+                            </a>
+                        </li>
+                        <li class ="user-setting">
+                            <a href="../UserPage/index.html">
+                                USER
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- INPUT -->
+        </header>
+        <div class="navigation_mobile">
+            <input
+                type="checkbox"
+                name=""
+                hidden
+                class="nav_input"
+                id="input-check"
+            />
+            <!-- NAV MOBILE -->
+            <nav class="nav_mobile">
+                <label class="close-icon" for="input-check">
+                    <i class="fa-solid fa-square-xmark"></i>
+                </label>
+
+                <ul>
+                    <li>
+                        <a href="#!"
+                            ><i class="fa-solid fa-right-to-bracket"></i>
+                            <span>Đăng nhập</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../HomeForGuest/index.html"
+                            ><i class="fa-solid fa-house"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="../page_gioithieu/pagegioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="../SanPham/NationalUni.html">Dịch vụ</a>
+                    </li>
+                    <li>
+                        <a href="../page-quocgiaduhoc/quocgiaduhoc.html">Quốc gia du học</a>
+                        <input
+                            type="checkbox"
+                            hidden
+                            class="nav-input-submenu"
+                            id="input-submenu"
+                        />
+                        <label class="plus" for="input-submenu">+</label>
+                        <label class="minus" for="input-submenu">-</label>
+
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./du_hoc_han_quoc.html"
+                                    >Du học Hàn Quốc</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./du_hoc_nhat_ban.html"
+                                    >Du học Nhật Bản</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./du_hoc_dai_loan.html"
+                                    >Du học Đài Loan</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../Tung/HoiThaoDuHoc.html">Hội thảo du học</a>
+                    </li>
+                    <li>
+                        <a href="../Tung/ThuVien.html">Thư viện</a>
+                    </li>
+                    <li>
+                        <a href="../page_event/pagesk.html">Tin tức, sự kiện</a>
+                    </li>
+                    <li>
+                        <a href="../LienHe/index.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Thêm cái overley zo -->
+            <label class="overley" for="input-check"></label>
+        </div>
+        <!-- form login and register -->
+        <div class="form-login">
+        <img class="back-to-login" width="20px" src="./image/arrow.png" alt="">
+        <img class="close-form" width="20px" src="./image/close.png" alt="">
+        <h3>Đăng Nhập</h3>
+        <form onsubmit="return handleSubmit()">
+            <div class="login-userName">
+                <input type="text" placeholder="Họ tên">
+                <div class="warning">
+                    <img src="./image/exclamation.png" alt="">
+                    <span>Họ tên không được để trống</span>
+                </div>
+            </div>
+            <div class="login-id">
+                <input type="text" placeholder="Tên đăng nhập">
+                <div class="warning">
+                    <img src="./image/exclamation.png" alt="">
+                    <span>Tên đăng nhập không được để trống</span>
+                </div>
+            </div>
+            <div class="login-password">
+                <input type="text" placeholder="Mật khẩu">
+                <div class="warning">
+                    <img src="./image/exclamation.png" alt="">
+                    <span>Mật khẩu không được để trống</span>
+                </div>
+            </div>
+            <div class="login-repeatpass">
+                <input type="text" placeholder="Nhập lại mật khẩu">
+                <div class="warning">
+                    <img src="./image/exclamation.png" alt="">
+                    <span>Mật khẩu lặp lại không đúng</span>
+                </div>
+            </div>
+            <button type="submit">ĐĂNG KÝ</button>
+            <div class="register" onclick="register(event)">
+                <span>Bạn chưa có tài khoản ?</span>
+                <a href="#">Đăng ký</a>
+            </div>
+        </form>
+        </div>
+    </body>
+    <script src="../page-quocgiaduhoc/a.js"></script>
+    <script src="../HomeForGuest/Js/index.js"></script>
+</html>
